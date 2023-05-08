@@ -28,7 +28,7 @@ export const pings = [
   },
   {
     id: "4",
-    img:gpt,
+    img:proB,
     title: "Modern Restaurant Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/restaurant-app/",
@@ -37,7 +37,7 @@ export const pings = [
   
   {
     id: "5",
-    img:proA,
+    img:gpt,
     title: "Modern UI/UX Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/gpt3/",
