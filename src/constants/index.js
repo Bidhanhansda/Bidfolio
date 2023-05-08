@@ -7,24 +7,24 @@ export const pings = [
     img:bidforecast,
     title: "Weather Forecast APP",
     skill:"Html | CSS | javaSript | React",
-    link: "https://bidhanhansda.github.io/restaurant-app/",
-    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+    link: "https://bidforecast.netlify.app/",
+    gitlink: "https://github.com/Bidhanhansda/BidForecast.git",
   },
   {
     id: "2",
     img:pp,
     title: "Personal Portfolio Website",
     skill:"Html | CSS | javaSript | React | Tailwind ",
-    link: "https://bidhanhansda.github.io/bidfolio/",
-    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+    link: "https://bidfolio.netlify.app/",
+    gitlink: "https://github.com/Bidhanhansda/Bidfolio.git",
   },
   {
     id: "3",
     img:Mychat,
     title: "Personal Chat APP",
     skill:"Html | CSS | javaSript | React",
-    link: "https://bidhanhansda.github.io/restaurant-app/",
-    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+    link: "https://mychat-2023.netlify.app/",
+    gitlink: "https://github.com/Bidhanhansda/Mychat-frontend.git",
   },
   {
     id: "4",
@@ -32,7 +32,7 @@ export const pings = [
     title: "Modern Restaurant Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/restaurant-app/",
-    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+    gitlink: "https://github.com/Bidhanhansda/restaurant-app.git",
   },
   
   {
@@ -41,7 +41,7 @@ export const pings = [
     title: "Modern UI/UX Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/gpt3/",
-    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+    gitlink: "https://github.com/Bidhanhansda/gpt3.git",
     
   },
   
