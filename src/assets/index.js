@@ -28,6 +28,7 @@ import pp from "./pp.png";
 import avatar1 from "./avatar1.png";
 import bidforecast from "./bidforecast.png";
 import Mychat from "./Mychat.png";
+import gpt from "./gpt.png";
 
 export {
     pp,
@@ -38,7 +39,7 @@ export {
     Abs,
     menu,
     close,
-    
+    gpt,
     html,
     css,
     js,

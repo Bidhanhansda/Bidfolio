@@ -1,4 +1,4 @@
-import {html, css, js, nodejs, ex, git, react, ejs, jq, mongodb, sql, tailwind, proA, proB, proC, proD, proE, proF,pp,bidforecast,Mychat} from "../assets";
+import {html, css, js, nodejs, ex, git, react, ejs, jq, mongodb, sql, tailwind, proA, proB, proC, proD, proE, proF,pp,bidforecast,Mychat,gpt} from "../assets";
 
 export const pings = [
   
@@ -28,7 +28,7 @@ export const pings = [
   },
   {
     id: "4",
-    img:proB,
+    img:gpt,
     title: "Modern Restaurant Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/restaurant-app/",
