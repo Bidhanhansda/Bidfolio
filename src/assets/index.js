@@ -1,6 +1,6 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
-import profile from "./profile.png";
+
 import html from "./html.png";
 import css from "./css.png";
 import js from "./js.png";
@@ -38,7 +38,7 @@ export {
     Abs,
     menu,
     close,
-    profile,
+    
     html,
     css,
     js,
