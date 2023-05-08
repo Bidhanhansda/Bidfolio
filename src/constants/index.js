@@ -1,13 +1,14 @@
-import {html, css, js, nodejs, ex, git, react, ejs, jq, mongodb, sql, tailwind, proA, proB, proC, proD, proE, proF,pp} from "../assets";
+import {html, css, js, nodejs, ex, git, react, ejs, jq, mongodb, sql, tailwind, proA, proB, proC, proD, proE, proF,pp,bidforecast,Mychat} from "../assets";
 
 export const pings = [
   
   {
     id: "1",
-    img:proB,
-    title: "Fully responsive Modern Restaurant Website",
+    img:bidforecast,
+    title: "Weather Forecast APP",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/restaurant-app/",
+    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
   },
   {
     id: "2",
@@ -15,15 +16,35 @@ export const pings = [
     title: "Personal Portfolio Website",
     skill:"Html | CSS | javaSript | React | Tailwind ",
     link: "https://bidhanhansda.github.io/bidfolio/",
+    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
   },
   {
     id: "3",
+    img:Mychat,
+    title: "Personal Chat APP",
+    skill:"Html | CSS | javaSript | React",
+    link: "https://bidhanhansda.github.io/restaurant-app/",
+    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+  },
+  {
+    id: "4",
+    img:proB,
+    title: "Modern Restaurant Website",
+    skill:"Html | CSS | javaSript | React",
+    link: "https://bidhanhansda.github.io/restaurant-app/",
+    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
+  },
+  
+  {
+    id: "5",
     img:proA,
-    title: "Fully Responsive Modern UI/UX Website",
+    title: "Modern UI/UX Website",
     skill:"Html | CSS | javaSript | React",
     link: "https://bidhanhansda.github.io/gpt3/",
+    gitlink: "https://bidhanhansda.github.io/restaurant-app/",
     
   },
+  
 ];
 
 export const images = [

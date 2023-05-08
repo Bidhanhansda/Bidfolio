@@ -15,9 +15,9 @@ const Myself = () => {
   return (
     <section id="Myself" className={`${styles.paddingY} flex  }`}>
       <div data-aos="zoom-in-up" 
-    data-aos-offset="250"
+    data-aos-offset="100"
     data-aos-delay="100"
-    data-aos-duration="1500"
+    data-aos-duration="800"
     data-aos-easing="ease-in-out"
     data-aos-mirror="false"
     data-aos-once="false"

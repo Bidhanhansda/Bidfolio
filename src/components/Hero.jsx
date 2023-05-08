@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from 'react';
-import { logoWeb } from "../assets";
+import { logoWeb, avatar1 } from "../assets";
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Typed from 'typed.js';
 import styles, { layout } from '../style';
+
 
 const Hero = () => {
 
@@ -12,12 +13,12 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-    	strings: [
+      strings: [
         " ", "Web", "Front-end", "Back-end", "Full Stack"
       ],
       typeSpeed: 50,
       backSpeed: 50,
-      loop:true
+      loop: true
     };
 
     typed.current = new Typed(el.current, options);
@@ -29,26 +30,30 @@ const Hero = () => {
 
 
   return (
-    <section id="Home" className={`${styles.paddingY}   }`}>
-      <div className='text-center p-10 py-10'>
+    <section id="Home" className={`${styles.paddingY}  sm:h-[80vh] h-[50vh] md:mt-0  mt-44 }`}>
+      <div className='flex'>
 
-        <h1 className="text-5xl py-2 #4eb19e text-teal-600  font-medium dark:text-teal-400 md:text-6xl">
-          HI, I AM BIDHAN
-        </h1>
 
-        <h3 className="text-2xl py-2 text-white md:text-3xl">
-          <span ref={el}></span>
-          <br className='sm:block ' />
-          Developer
-        </h3>
-       
-        <div className="text-5xl flex justify-center gap-16 py-3 text-white">
+        <div className='text-center p-10 py-10 flex-col'>
 
-        <a  className=" hover:scale-125 hover:text-[#4eb19e]" href='https://www.linkedin.com/in/bidhanhansda/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
-          <a className=" hover:scale-125 hover:text-[#4eb19e]" href='https://github.com/Bidhanhansda' target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+          <h1 className="text-5xl py-2 #4eb19e text-teal-600  font-medium dark:text-teal-400 md:text-9xl">
+            HI, I AM BIDHAN
+          </h1>
+
+          <h3 className="text-2xl py-2 text-black md:text-3xl font-bold">
+            <span ref={el}></span>
+            <br className='sm:block ' />
+            Developer
+          </h3>
+
+          <div className="text-5xl flex justify-center gap-16 py-3 text-black">
+
+            <a className=" hover:scale-125 hover:text-[#4eb19e]" href='https://www.linkedin.com/in/bidhanhansda/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+            <a className=" hover:scale-125 hover:text-[#4eb19e]" href='https://github.com/Bidhanhansda' target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+          </div>
         </div>
-        <div className="profile_pic mt-10 ss:h-[800px] h-[800px] ss:w-[800px] w-[800px] md:h-[550px] md:w-[550px] ">
-          <img src={logoWeb} className='object-cover pb-4' />
+        <div className="profile_pic  ss:h-[800px] h-[800px] ss:w-[800px] w-[800px] md:h-[550px] md:w-[550px]  md:rounded-full rounded-xl shadow-2xl shadow-shadow">
+          <img src={avatar1} className='object-cover pb-4 ' />
         </div>
       </div>
 
@@ -57,6 +62,85 @@ const Hero = () => {
 }
 
 export default Hero;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useEffect, useRef } from 'react';
+// import { logoWeb } from "../assets";
+// import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+// import Typed from 'typed.js';
+// import styles, { layout } from '../style';
+
+// const Hero = () => {
+
+
+//   const el = useRef(null);
+//   const typed = useRef(null);
+
+//   useEffect(() => {
+//     const options = {
+//     	strings: [
+//         " ", "Web", "Front-end", "Back-end", "Full Stack"
+//       ],
+//       typeSpeed: 50,
+//       backSpeed: 50,
+//       loop:true
+//     };
+
+//     typed.current = new Typed(el.current, options);
+
+//     return () => {
+//       typed.current.destroy();
+//     }
+//   }, [])
+
+
+//   return (
+//     <section id="Home" className={`${styles.paddingY}   }`}>
+//       <div className='text-center p-10 py-10'>
+
+//         <h1 className="text-5xl py-2 #4eb19e text-teal-600  font-medium dark:text-teal-400 md:text-6xl">
+//           HI, I AM BIDHAN
+//         </h1>
+
+//         <h3 className="text-2xl py-2 text-white md:text-3xl">
+//           <span ref={el}></span>
+//           <br className='sm:block ' />
+//           Developer
+//         </h3>
+       
+//         <div className="text-5xl flex justify-center gap-16 py-3 text-white">
+
+//         <a  className=" hover:scale-125 hover:text-[#4eb19e]" href='https://www.linkedin.com/in/bidhanhansda/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+//           <a className=" hover:scale-125 hover:text-[#4eb19e]" href='https://github.com/Bidhanhansda' target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+//         </div>
+//         <div className="profile_pic mt-10 ss:h-[800px] h-[800px] ss:w-[800px] w-[800px] md:h-[550px] md:w-[550px] ">
+//           <img src={logoWeb} className='object-cover pb-4' />
+//         </div>
+//       </div>
+
+//     </section>
+//   )
+// }
+
+// export default Hero;
 
 
 

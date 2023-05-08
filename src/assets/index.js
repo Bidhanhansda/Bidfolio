@@ -25,6 +25,9 @@ import big from "./big.jpg";
 import logoWeb from "./logoWeb.png";
 import black from "./black.jpg";
 import pp from "./pp.png";
+import avatar1 from "./avatar1.png";
+import bidforecast from "./bidforecast.png";
+import Mychat from "./Mychat.png";
 
 export {
     pp,
@@ -53,5 +56,8 @@ export {
     proC,
     proD,
     proE,
-    proF
+    proF,
+    avatar1,
+    bidforecast,
+    Mychat,
 };

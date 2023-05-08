@@ -455,8 +455,8 @@
 
 
 .card{
-  min-width: 250px;
-  height: 300px;
+  min-width: 350px;
+  height: 400px;
   border-radius: 20px;
   overflow: hidden;
   border: 8px solid #ffffff;
@@ -533,7 +533,7 @@ font-family: 'Sawarabi Gothic', sans-serif;
 
 .card_btn{
   color: white;
-  background: #b31520;
+  background: #4eb19e;
   padding: 8px 14px;
   border-radius: 5px;
   border: none;
@@ -634,24 +634,37 @@ font-family: 'Sawarabi Gothic', sans-serif;
 /* 
 ///////////bg__image///////////// */
 
-.back__image{
+/* .back__image{
   background-image: url("./assets/black.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: full;
   height: 100vh;
   
-}
+} */
 
 /* /////////////////////////profile__img/////////// */
 
 .profile_pic{
   margin-left: auto;
   margin-right: auto;
-  border-radius: 9999px;
+  
   width: 20rem;
   height: 20rem;
   position: relative;
   overflow: hidden;
   
+}
+
+/* ///////////////////////// */
+
+.progress-bar {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #4eb19e;
+  transform-origin: 0%;
 }

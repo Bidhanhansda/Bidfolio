@@ -11,9 +11,9 @@ const Logo = ({img,title}) => {
 
   return (
     <div data-aos="zoom-out-right" 
-    data-aos-offset="300"
+    data-aos-offset="100"
     data-aos-delay="200"
-    data-aos-duration="2000"
+    data-aos-duration="1000"
     data-aos-easing="ease-in-out"
     data-aos-mirror="false"
     data-aos-once="false"

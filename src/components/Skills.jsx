@@ -16,9 +16,9 @@ const Skills = () => {
     <section id="Skills" className={`${styles.paddingY}`}>
       <div className="flex flex-col justify-center items-center">
         <h1 data-aos="fade-left" 
-    data-aos-offset="300"
-    data-aos-delay="150"
-    data-aos-duration="1500"
+    data-aos-offset="100"
+    data-aos-delay="100"
+    data-aos-duration="800"
     data-aos-easing="ease-in-out"
     data-aos-mirror="false"
     data-aos-once="false"
