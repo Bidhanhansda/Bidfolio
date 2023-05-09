@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between items-center py-6 ">
     <h1 className="w-[124px] h-[32px] text-6xl font__text text-black">BidFolio</h1>
 
-    <ul className='list-none justify-end flex-1 items-center sm:flex hidden'>
+    <ul className='list-none justify-end flex-1 items-center nav-menu'>
       {navLinks.map((nav,index) =>(
         <li key={nav.id} className={` hov__line font__heading font-normal cursor-pointer text-[16px] text-black ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}>
         <a href={`#${nav.id}`}>
