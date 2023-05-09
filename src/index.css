@@ -668,3 +668,15 @@ font-family: 'Sawarabi Gothic', sans-serif;
   background: #4eb19e;
   transform-origin: 0%;
 }
+
+@media (max-width: 764px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 765px) {
+  .nav-menu {
+    display: flex !important;
+  }
+}
